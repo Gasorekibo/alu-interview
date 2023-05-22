@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+    Creating a function that will return minimun operation
+"""
 def minOperations(n):
     """
         this function will return the minimun number of operation
