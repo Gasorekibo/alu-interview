@@ -2,6 +2,8 @@
 """
     Creating a function that will return minimun operation
 """
+
+
 def minOperations(n):
     """
         this function will return the minimun number of operation
@@ -20,5 +22,3 @@ def minOperations(n):
         operations += 1
 
     return operations
-
-    
