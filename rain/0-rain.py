@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def rain(walls):
+    """ this function receive walls as a list of height of walls"""
     if not walls:
         return 0
 
