@@ -1,20 +1,20 @@
 #!/usr/bin/python3
 def rain(walls):
     """
-    Calculate the amount of water retained between walls.
+        Calculate the amount of water retained between walls.
 
-    Args:
-        walls (List[int]): A list of non-negative integers representing the heights of walls.
+        Args:
+            walls (List[int]): A list of non-negative integers representing the heights of walls.
 
-    Returns:
-        int: The total amount of water retained.
+        Returns:
+            int: The total amount of water retained.
 
-    Raises:
-        None
+        Raises:
+            None
 
-    Examples:
-        >>> rain([3, 0, 2, 0, 4])
-        5
+        Examples:
+            >>> rain([3, 0, 2, 0, 4])
+    5
     """
     if not walls:
         return 0
